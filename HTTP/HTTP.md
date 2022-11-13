@@ -1,4 +1,4 @@
-- [HTTP ?](#http--)
+- [HTTP](#http)
 - [Possible HTTP communication](#possible-http-communication)
 - [HTTP 1.0 vs HTTP 1.1](#http-10-vs-http-11)
 - [HTTP URL](#http-url)
@@ -19,7 +19,7 @@
 - [References and links](#references-and-links)
 - [General Header](#general-header)
 
-## HTTP ?
+## HTTP
 
 * The HTTP protocol is a request/response protocol.
 * A client sends a request to the server in the form of a request method, URI, and protocol version, followed by a MIME-like message containing request modifiers, client information, and possible body content over a connection with a server
@@ -234,7 +234,7 @@ Except: 100-continue
 
 Request and Response messages MAY transfer an entity if not otherwise restricted by the request method or response status code. An entity consists of entity-header fields and an entity-body, although some responses will only include the entity-headers.
 
-#### Entity Headers:
+#### Entity Headers
 
 
 | Entity headers   | details                                                                                                                                                               | examples                                                                                                                                                                                           |
@@ -250,7 +250,7 @@ Request and Response messages MAY transfer an entity if not otherwise restricted
 | Expires          | date/time after which the response is considered stale                                                                                                                | Expires: Thu, 01 Dec 1994 16:00:00 GMT                                                                                                                                                             |
 | Authorization    | The Authorization field value consists of credentials containing the authentication information of the user agent for the realm of the resource requested.            | "Authorization" ":" credentials                                                                                                                                                                    |
 
-## Terminologies:
+## Terminologies
 
 ##### cache
 
