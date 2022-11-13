@@ -1,3 +1,5 @@
+[HTTP](#http?)
+
 ## HTTP ?
 
 * The HTTP protocol is a request/response protocol.
@@ -192,8 +194,6 @@ Age
 ETag
 provides the current value of the entity tag for the requested variant
 
-
-
 Location
 
 Proxy-Authenticate
@@ -222,7 +222,6 @@ Request and Response messages MAY transfer an entity if not otherwise restricted
 | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Allow            | lists the set of methods supported by the resource identified by the Request-URI                                                                                      | Allow: GET, HEAD, PUT                                                                                                                                                                              |
 | Content-Encoding | used as a modifier to the media-type. When present, its value indicates what additional content codings have been applied to the entity-body                          | Content-Encoding: gzip                                                                                                                                                                             |
-|                  |                                                                                                                                                                       |                                                                                                                                                                                                    |
 | Content-Language | describes the natural language(s) of the intended audience for the enclosed entity                                                                                    | Content-Language: de, en                                                                                                                                                                           |
 | Content-Length   | indicates the size of the entity-body                                                                                                                                 | d Content-Length: 3495                                                                                                                                                                             |
 | Content-Location | used to supply the resource location for the entity enclosed in the message when that entity is accessible from a location separate from the requested resource's URI | "Content-Location" ":"( absoluteURI / relativeURI                                                                                                                                                  |
